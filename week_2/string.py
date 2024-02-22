@@ -1,0 +1,57 @@
+# strings in ython
+# Date : 15/02/2024
+# Name : Austin Musango
+
+city = "nairobi"
+
+print(city[0]) #n
+print(city[1])
+print(city[2])
+print(city[3])
+print(city[4])
+print(city[-1])
+print(city[-2])
+
+
+# convert to upper case
+
+
+print(city)
+print("\n") #prints a new line
+print(city.upper())
+
+name = "AUSTIN"
+print(name)
+print(name.lower()) # converts to lower case
+
+town = "      Naivasha"
+
+print(town)
+print("\t") # new tab
+print(town.strip())
+
+# add two strings
+
+f_name = "Austin"
+s_name = "Musango"
+
+full_name = f_name + s_name
+
+print(full_name)
+# write a program to reverse a string
+# write a program that checks if astring is a palindrom
+
+
+#replacing a character
+
+fruit = "orange"
+
+print(fruit.replace("o","y"))
+
+subject = "physical,sciences"
+
+print(subject.split(":"))
+
+age = 30
+height = 2.9
+print("i am  {0} years old and {1} meters tall" .format (age,height))
