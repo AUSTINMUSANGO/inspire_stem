@@ -1,5 +1,8 @@
-number = 20
+   # Program for while loops
+# Date : 26/02/2024
+# Name : Rose Mugwe
 
-for i in range (1,number):
-    while i < number :
-    print(i)
+number = 20
+for i in range(0 , number):
+    while i < number:
+        print(i) 
