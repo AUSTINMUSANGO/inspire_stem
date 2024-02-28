@@ -55,3 +55,26 @@ print(subject.split(":"))
 age = 30
 height = 2.9
 print("i am  {0} years old and {1} meters tall" .format (age,height))
+
+activity = "dancing"
+print("My hobby is &s" %(activity))
+
+# printing a float
+
+height = 1.2334909
+print("My height is  %5.3f"% (height))
+
+# printing an integer
+age = 32
+print("my age is %d" %(height))
+
+
+
+name = "AUSTIN"
+print(len(name))
+
+print(f"My full name is {name}")
+
+course= "Electrical"
+school="Engeneering"
+print("I am studying {0} in the school of {1}".format(course="medicine",school="Agakhan"))
