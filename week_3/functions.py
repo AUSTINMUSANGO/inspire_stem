@@ -37,5 +37,13 @@ print_odds(0,15)
 
 
 #write a function t print all prime numbers between 1 and 99
-# write a function to print all the squares and cubes of numbers betwwe 1 to 10
+# write a function to print all the squares and cubes of numbers between 1 to 10
 # write a function to calculate s.a of cone,cylinder and sphere
+
+
+def print_primes(first_no,last_number):
+    for i in range(first_no,last_number):
+        print(i%2)
+
+
+print_primes(1,99)
